@@ -1,0 +1,59 @@
+body{
+  background: #fff2e3;
+  text-align: center;
+  font-size: 14px;
+}
+a {
+  text-decoration: none;
+  color: #72b890;
+}
+.layout{
+  margin: 0 auto;
+  width: 800px;
+}
+/*标题头部分的CSS处理*/
+.header h1{
+  font-size: 42px;
+  margin-top: 30px;
+}
+.header p{
+   margin-top: 10px;
+   opacity: 0.6;
+}
+ul,li{
+  list-style: none;
+}
+ul {
+    margin: 40px 0;
+}
+ul > li {
+    display: inline-block;
+}
+
+/*对content部分的处理*/
+.content .check {
+    margin-top: 30px;
+}
+/*a链接部分的CSS处理，本demo核心部分*/
+.btn {
+    background: #72b890;
+    border-radius: 2px;
+    color: #fff;
+    display: inline-block;
+    margin: 3px;
+    padding: 6px 14px;
+}
+.btn:hover {
+    opacity: 0.8;
+}
+.active {
+    opacity: 0.6;
+}
+
+/*对页脚部分的CSS处理*/
+.footer {
+    margin-top: 30px;
+}
+
+
+
