@@ -1,0 +1,60 @@
+/*---------css全局处理------------*/
+body{
+  background: #ccc;
+}
+.layout {
+  margin: 0 auto;
+  width: 1000px;
+  background: #ccc;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  font-family:"\5FAE\8F6F\96C5\9ED1";
+}
+
+.clearfix {
+  content: "";
+  display: block;
+  clear: both;
+}
+/*-----------------iconfont--------------*/
+@font-face {
+  font-family: 'iconfont';  /* project id 293144 */
+  src: url('//at.alicdn.com/t/font_c1abvlrkek84obt9.eot');
+  src: url('//at.alicdn.com/t/font_c1abvlrkek84obt9.eot?#iefix') format('embedded-opentype'),
+  url('//at.alicdn.com/t/font_c1abvlrkek84obt9.woff') format('woff'),
+  url('//at.alicdn.com/t/font_c1abvlrkek84obt9.ttf') format('truetype'),
+  url('//at.alicdn.com/t/font_c1abvlrkek84obt9.svg#iconfont') format('svg');
+}
+.iconfont {
+  font-family: 'iconfont' !important;
+  font-size: 20px;
+  font-weight: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/*----------css header处理---------------*/
+.picture {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  float: left;
+  background-image: url(http://7xpvnv.com2.z0.glb.qiniucdn.com/283a4100-10cd-4208-a3b5-4030ec03acf6);
+}
+.author {
+  margin-left: 80px;
+  float: left;
+}
+.author h1 {
+  font-weight: normal;
+  font-size: 42px;
+}
+.contacts {
+  float: right;
+}
+.contacts h3 {
+  border-bottom: 5px solid #000;
+  padding-bottom: 5px;
+}
+.contacts p {
+  line-height: 1em;
+}
