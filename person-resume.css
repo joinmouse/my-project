@@ -98,17 +98,17 @@ ul,li {
 /*--------footer CSS处理-----------*/
 
 .extra {
-  width:48%;
+  width:40%;
   float:left;
   line-height:1em;
 }
 .skills li {
   display:inline-block;
-  width:49%;
+  width:40%;
   line-height:4em;
 }
 .skills {
-  width:48%;
+  width:40%;
   float:right;
   line-height:1em;
 }
