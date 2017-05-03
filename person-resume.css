@@ -41,6 +41,9 @@ ul,li {
 }
 
 /*----------css header处理---------------*/
+.header {
+  padding-top: 50px;
+}
 .picture {
   width: 150px;
   height: 150px;
