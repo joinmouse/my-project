@@ -5,7 +5,7 @@ body{
 .layout {
   margin: 0 auto;
   width: 1000px;
-  background: #ccc;
+  background: #fff;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   font-family:"\5FAE\8F6F\96C5\9ED1";
 }
@@ -57,4 +57,29 @@ body{
 }
 .contacts p {
   line-height: 1em;
+}
+
+/*--------main CSS处理-----------*/
+.main h3 {
+  padding: 5px;
+  width: 450px;
+  border-bottom: 1px solid #ccc;
+}
+.main ul{
+  text-decoration: none;
+  position: relative;
+  border-left: 1px solid #ccc;
+}
+.main li:before {
+  content: "";
+  display: block;
+  position: absolute;
+  left: -5px;
+  background: #000;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}
+.main .time {
+  color: #ccc;
 }
